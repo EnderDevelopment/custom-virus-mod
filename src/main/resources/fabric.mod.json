@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "customvirusmod",
+  "version": "1.0.0",
+  "name": "Custom Virus Mod",
+  "description": "A mod to create and apply custom viruses with unique effects.",
+  "authors": ["cameronjacobtitus"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.cameronjacobtitus.customvirusmod.CustomVirusMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.20.4",
+    "fabric-api": "*"
+  }
+}
